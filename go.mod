@@ -25,7 +25,7 @@ require (
 	github.com/deckarep/golang-set/v2 v2.3.1
 	github.com/sirupsen/logrus v1.9.1
 	golang.org/x/crypto v0.31.0
-	golang.org/x/net v0.26.0
+	golang.org/x/net v0.33.0
 	gomodules.xyz/jsonpatch/v2 v2.4.0
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 	sigs.k8s.io/yaml v1.4.0
@@ -96,4 +96,4 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 )
 
-replace go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc => go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.46.0
+//replace go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc => go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.46.0
